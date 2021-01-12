@@ -18,11 +18,11 @@ header{
 }
 
 nav{
-    margin-right: 20px;
+    margin-right: 18px;
 }
 
 nav ul{
-    height: 70px;
+    height: 60px;
     display: flex;
     align-items: center;
 }
@@ -48,8 +48,64 @@ li a{
     background-color: #4487f9;
     color: white;
     font-weight: 600;
-    padding: 7px 15px;
+    padding: 6px 12px;
     border-radius: 4%;
     border: 1px #2d78fa solid;
-    
 }
+
+/*ESTILOS MAIN*/
+
+.logo_content{
+    display: flex;
+    margin-top: 96px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_content__logo{
+    width: 272px;
+    height: 92px;
+}
+
+.search_content{
+    display: flex;
+    margin: auto;
+    margin-top: 27px;
+    justify-content:space-between;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 584px;
+    height: 46px;
+}
+
+.search_content:hover, .search_content:focus{
+    box-shadow: 1px 1px 8px 1px rgb(228, 228, 228);
+}
+
+.search_content:focus{
+    box-shadow: 2px 2px 6px rgb(228, 228, 228);
+    border: none;
+}
+
+.search_content > input {
+    flex: auto;
+    border: none;
+    font-size: 1.6rem;
+}
+.search_content > input:focus {
+    border: none;
+    outline: none;
+}
+
+.search_content__lupa{
+    width: 30px;
+    margin: 0px 10px;
+}
+
+.search_content__microfono{
+    width: 38px;
+    margin: 0px 10px;
+}
+
+
+
