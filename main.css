@@ -53,7 +53,7 @@ li a{
     border: 1px #2d78fa solid;
 }
 
-/*ESTILOS MAIN*/
+/*ESTILOS BARRA DE BUSQUEDA*/
 
 .logo_content{
     display: flex;
@@ -106,6 +106,43 @@ li a{
     width: 38px;
     margin: 0px 10px;
 }
+/*ESTILOS BOTONES DE BUSQUEDA Y TEXTO*/
 
+.buttons_content{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+div > input[type=submit] {
+    padding: 10px 20px;
+    margin: 0px 5px;
+    border: none;
+    border-radius: 6%;
+    font-size: 1.4rem;
+    color: #3b3b3b;
+    background-color: #f7fafb;
+}
 
+div > input[type=submit]:hover {
+    box-shadow: 0px 0.5px 0px rgb(228, 228, 228);
+    border: 0.5px solid #e2e2e2;
+}
+
+div > input[type=submit]:focus {
+    outline-color: #2d78fa;
+    outline-style:outset;
+    border-radius: 6%;
+}
+
+.subtitulo_content{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    margin-top: 35px;
+}
+
+.subtitulo_content a{
+    text-decoration: none;
+    color: #3741a0;
+}
 
